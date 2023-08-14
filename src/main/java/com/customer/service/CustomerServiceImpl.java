@@ -27,8 +27,7 @@ public class CustomerServiceImpl implements CustomerService {
 
 	@Override
 	public List<Customer> loadCustomer() {
-		// TODO Auto-generated method stub
-		return null;
+		return repository.findAll();
 	}
 
 }
